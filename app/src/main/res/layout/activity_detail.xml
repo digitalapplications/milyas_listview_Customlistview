@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.l400.task_no1.Detail">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageVie"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:textStyle="bold"
+        android:paddingTop="30dp"
+        android:textSize="20dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/ilyas"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/ilyas"
+        android:layout_toEndOf="@+id/imageVie"
+        android:layout_marginStart="71dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qulaification :"
+        android:id="@+id/qualification"
+        android:textSize="20dp"
+        android:layout_below="@+id/imageVie"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expertese :"
+        android:id="@+id/expertese"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/qualification"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact :"
+        android:textSize="20dp"
+        android:id="@+id/contact"
+        android:textStyle="bold"
+        android:layout_below="@+id/expertese"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/quli"
+        android:layout_alignBottom="@+id/qualification"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/qualification"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="expe"
+        android:id="@+id/expe"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/qualification"
+        android:layout_below="@+id/quli"
+        android:layout_alignStart="@+id/quli" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/cont"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/expertese"
+        android:layout_alignStart="@+id/expe" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/messger"
+        android:src="@drawable/messger"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/call"
+        android:src="@drawable/phones"
+        android:paddingRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+         />
+
+</RelativeLayout>
